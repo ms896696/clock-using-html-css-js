@@ -1,0 +1,71 @@
+#clockcontainer{
+    position: relative;
+    margin: auto;
+    
+    /* border: 40%; */
+    height: 40vw;
+    width: 40vw;
+    background: url(image2.png) no-repeat;
+    background-size: 100%;
+    
+
+}
+
+
+
+#hour, #minute, #sec{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    background-color: rgb(231, 64, 18);
+    
+    top: 28.5%;
+    left: 49.5%;
+    height: 22%;
+    width: 1%;
+    
+}
+
+#minute{
+   
+    top: 22.5%;
+    left: 49.4%;
+    height: 28%;
+    width: 1%;
+    opacity: 0.8;
+   
+    
+
+}
+#sec{
+    background-color: yellowgreen;
+   
+    top: 18.5%;
+    left: 49.4%;
+    height: 32%;
+    width: 1%;
+    opacity: 0.8;
+    
+    
+}
+#copy{
+    position: absolute;
+    top: 40vw;
+    left: 9vw;
+}
+#circle{
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    height: 10%;
+}
+
+#body{
+    background-color: rgb(63, 160, 160);
+}
+image{
+    background-color: blueviolet;
+}
